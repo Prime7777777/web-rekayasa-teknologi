@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/Halaman utama.html" }
+    ]
+  }
+  
