@@ -190,7 +190,7 @@ p {
     list-style: none;
     background-color: rgb(255, 132, 132);
     border-radius: 20px;
-    width: 45%;
+    width: 50%;
     height: auto;
 }
 
@@ -200,6 +200,7 @@ p {
 
 .liAboutUs {
     padding-left: 7%;
+    font-size: 40px;
 }
 
 /*Content*/
