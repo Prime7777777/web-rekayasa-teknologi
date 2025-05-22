@@ -206,18 +206,9 @@ p {
 .Box {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
 }
 .Box1 {
     border: 50%;
     border-style: solid;
     padding: 30px;
-    border-spacing: 10px;
-}
-
-.Box2 {
-    border: 50%;
-    border-style: solid;
-    padding: 30px;
-    border-spacing: 10px;
 }
