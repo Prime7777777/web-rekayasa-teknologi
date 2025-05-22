@@ -1,0 +1,223 @@
+/*Home*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    margin-top: 0;
+    padding: 18px;
+    position: fixed;
+    width: 100%;
+    background-image: url(abstract-1081281_1280.webp);
+}
+
+.ulNav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.aNav {
+    position: relative;
+    animation-name: buram;
+    animation-duration: 1s;
+}
+
+@keyframes buram {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+button {
+    font-weight: 600;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px white;
+    transform: scale(1.2);
+}
+
+.headerhome {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.Logo {
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-bottom: 1%;
+    height: 135px;
+    width: auto;
+    animation-name: Muncul;
+    animation-duration: 1.2s;
+}
+
+@keyframes Muncul {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fontheader {
+    padding-left: 2.5%;
+    padding-right: 3%;
+    text-align: justify;
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    animation-name: slideRight;
+    animation-duration: 1.2s;
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-45px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+hr {
+    color: black;
+}
+
+main {
+    font-size: 25px;
+}
+
+p {
+    margin-top: 1%;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    text-align: justify;
+    animation-name: Paragraf;
+    animation-duration: 1.2s;
+}
+
+@keyframes Paragraf {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*Contact*/
+.head-contact {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.UsContact {
+    color: tomato;
+}
+
+.div-contact {
+    margin-top: -2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    animation-name: Paragraf;
+    animation-duration: 1.2s;
+}
+
+.UlContact {
+    list-style: disc;
+    display: inline;
+}
+
+.a-contact {
+    color: black;
+    text-decoration: none;
+}
+
+.a-contact:hover {
+    color: red;
+}
+
+/*About Us*/
+.hrAboutUs {
+    color: black;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.divAboutUs1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.borderAnggota {
+    border: none;
+    margin: auto;
+    list-style: none;
+    background-color: rgb(248, 75, 75);
+    border-radius: 20px;
+    width: 45%;
+    height: auto;
+}
+
+.ulAboutUs {
+    list-style: none;
+}
+
+.liAboutUs {
+    padding-left: 7%;
+}
+
+/*Content*/
+.Box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.Box1 {
+    border: 50%;
+    border-style: solid;
+    padding: 30px;
+    border-spacing: 10px;
+}
+
+.Box2 {
+    border: 50%;
+    border-style: solid;
+    padding: 30px;
+    border-spacing: 10px;
+}
